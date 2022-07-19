@@ -38,13 +38,17 @@
 		
 		<div id='description'>
 			<strong> Végétation détectée pendant 2021 </strong> 
-			<dl> Cette carte est extraite des images Sentinel-2 prises pendant 2021 
+			<dl> Cette carte est extraite des images Sentinel-2 prises pendant 2021 à une résolution de 20m
 			<li> 239 images prises sur le Grand Tunis </li>
 			<li> 192 images prises sur Sfax </li>
 			<p> Le code sur Google Earth Engine est accessible 
 			<a href="https://code.earthengine.google.com/?scriptPath=users%2Fturkimdhia%2FNDVI_Sentinel%3ANDVI_sentinel_grd_sfx">ici</a>
 			(Vous devez disposer d'un compte GEE pour consulter le code)</p></dl>
-			<img src="images/echelle.png" alt="echelle" width= "35%" height="35%">
+			<figure>
+				<img src="images/echelle.png" alt="echelle" width= "35%" height="35%">
+				<figcaption>Valeurs NDVI</figcaption>
+			</figure>
+				
 		</div>
 		
         <script src="js/qgis2web_expressions.js"></script>
@@ -91,7 +95,7 @@
             opacity: 1.0,
             attribution: '',
             minZoom: 7,
-            maxZoom: 13,
+            maxZoom: 14,
             minNativeZoom: 0,
             maxNativeZoom: 20
         });
@@ -122,7 +126,7 @@
             opacity: 0.9,
             attribution: '',
             minZoom: 7,
-            maxZoom: 13,
+            maxZoom: 14,
             minNativeZoom: 0,
             maxNativeZoom: 20
         });
